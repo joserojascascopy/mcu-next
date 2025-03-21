@@ -31,7 +31,7 @@ $following_production_poster_url = $data["following_production"]['poster_url'];
 
     <main class="container">
         <div>
-            <h1 class="titulo">MCU Next?</h1>
+            <h1 class="titulo">MCU Next Movie</h1>
             <p class="nombre-pelicula"><?php echo $title; ?></p>
             <p class="descripcion"><span>Faltan: </span><?php echo $days_until; ?> días</p>
             <img class="poster" src="<?php echo $poster_url; ?>" alt="Poster MCU">
