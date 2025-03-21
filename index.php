@@ -22,20 +22,25 @@ $following_production_poster_url = $data["following_production"]['poster_url'];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MCU Next?</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
-<body class="container">
+<body>
 
-    <main>
-        <h1 class="title-page">MCU Next?</h1>
-        <p class="title"><?php echo $title; ?></p>
-        <p><span>Faltan: </span><?php echo $days_until; ?> días</p>
-        <img src="<?php echo $poster_url; ?>" alt="Poster MCU">
-        <p><span>Se estrena el: </span><?php echo $release_date; ?></p>
-        <p><?php echo $overview; ?></p>
-        <p>Siguien Estreno</p>
-        <h2><?php echo $following_production_title ?></h2>
-        <img src="<?php echo $following_production_poster_url; ?>" alt="Poster MCU Next">
+    <main class="container">
+        <div>
+            <h1 class="titulo">MCU Next?</h1>
+            <p class="nombre-pelicula"><?php echo $title; ?></p>
+            <p class="descripcion"><span>Faltan: </span><?php echo $days_until; ?> días</p>
+            <img class="poster" src="<?php echo $poster_url; ?>" alt="Poster MCU">
+            <p class="estrena"><span>Se estrena el: </span><?php echo $release_date; ?></p>
+            <p class="overview"><?php echo $overview; ?></p>
+            <p class="siguiente-estreno">Siguien Estreno:</p>
+            <h2 class="siguiente-pelicula"><?php echo $following_production_title ?></h2>
+            <img class="poster-siguiente" src="<?php echo $following_production_poster_url; ?>" alt="Poster MCU Next">
+        </div>
     </main>
 
 </body>

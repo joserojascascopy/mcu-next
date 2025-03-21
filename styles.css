@@ -1,10 +1,65 @@
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(22,22,22,1) 27%, rgba(84,83,83,1) 91%);
+body {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(66, 66, 66, 1), rgba(115, 115, 115, 1));
+    font-family: "Oswald", sans-serif;
 }
 
-.title-page {
-    color: white;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    min-height: 100vh;
+}
+
+.container div {
+    max-width: 600px;
+}
+
+.titulo {
+    color: #af162a;
+    font-weight: bold;
+}
+
+.nombre-pelicula {
+    color: white;
+}
+
+.descripcion {
+    color: white;
+}
+
+.descripcion span {
+    color: #af162a;
+}
+
+.poster,
+.poster-siguiente {
+    height: 250px;
+    border-radius: 10px;
+}
+
+.estrena {
+    color: white;
+}
+
+.estrena span {
+    color: #af162a;
+}
+
+.overview,
+.siguiente-estreno,
+.siguiente-pelicula {
+    color: white;
+}
+
+.siguiente-estreno {
+    color: #af162a;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+h2 {
+    margin: 20px 0;
 }
