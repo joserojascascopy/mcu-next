@@ -37,7 +37,7 @@ $following_production_poster_url = $data["following_production"]['poster_url'];
             <img class="poster" src="<?php echo $poster_url; ?>" alt="Poster MCU">
             <p class="estrena"><span>Se estrena el: </span><?php echo $release_date; ?></p>
             <p class="overview"><?php echo $overview; ?></p>
-            <p class="siguiente-estreno">Siguien Estreno:</p>
+            <p class="siguiente-estreno">Siguiente Estreno:</p>
             <h2 class="siguiente-pelicula"><?php echo $following_production_title ?></h2>
             <img class="poster-siguiente" src="<?php echo $following_production_poster_url; ?>" alt="Poster MCU Next">
         </div>
