@@ -1,0 +1,10 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(22,22,22,1) 27%, rgba(84,83,83,1) 91%);
+}
+
+.title-page {
+    color: white;
+    text-align: center;
+}
